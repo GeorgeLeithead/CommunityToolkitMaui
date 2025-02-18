@@ -1,3 +1,5 @@
+// Ignore Spelling: color, colors, bindable, popups, popup
+
 using CommunityToolkit.Maui.Sample.Models;
 using CommunityToolkit.Maui.Sample.ViewModels.Views.AvatarView;
 
@@ -32,6 +34,7 @@ public sealed partial class ViewsGalleryViewModel() : BaseGalleryViewModel(
 	SectionModel.Create<PopupAnchorViewModel>("Anchor Popup", Colors.Red, "Popups can be anchored to other view's on the screen"),
 	SectionModel.Create<PopupLayoutAlignmentViewModel>("Popup Layout Page", Colors.Red, "Popup.Content demonstrated using different layouts"),
 	SectionModel.Create<PopupSizingIssuesViewModel>("Popup Sizing Issues Page", Colors.Red, "A page demonstrating how Popups can be styled in a .NET MAUI application."),
+	SectionModel.Create<RangeSliderViewModel>("RangeSlider XAML Page", Colors.Red, "A page demonstrating the RangeSlider control and possible uses using XAML"),
 	SectionModel.Create<RatingViewShowcaseViewModel>("RatingView Showcase Page", Colors.Red, "A page with showcase examples for the RatingView control."),
 	SectionModel.Create<RatingViewXamlViewModel>("RatingView XAML Page", Colors.Red, "A page demonstrating the RatingView control and possible uses using XAML"),
 	SectionModel.Create<RatingViewCsharpViewModel>("RatingView C# Page", Colors.Red, "A page demonstrating the RatingView control and possible uses using C#"),

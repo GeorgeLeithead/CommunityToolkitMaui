@@ -135,6 +135,7 @@ public partial class AppShell : Shell
 		CreateViewModelMapping<PopupLayoutAlignmentPage, PopupLayoutAlignmentViewModel, ViewsGalleryPage, ViewsGalleryViewModel>(),
 		CreateViewModelMapping<PopupPositionPage, PopupPositionViewModel, ViewsGalleryPage, ViewsGalleryViewModel>(),
 		CreateViewModelMapping<PopupSizingIssuesPage, PopupSizingIssuesViewModel, ViewsGalleryPage, ViewsGalleryViewModel>(),
+		CreateViewModelMapping<RangeSliderXamlPage, RangeSliderViewModel, ViewsGalleryPage, ViewsGalleryViewModel>(),
 		CreateViewModelMapping<RatingViewCsharpPage, RatingViewCsharpViewModel, ViewsGalleryPage, ViewsGalleryViewModel>(),
 		CreateViewModelMapping<RatingViewShowcasePage, RatingViewShowcaseViewModel, ViewsGalleryPage, ViewsGalleryViewModel>(),
 		CreateViewModelMapping<RatingViewXamlPage, RatingViewXamlViewModel, ViewsGalleryPage, ViewsGalleryViewModel>(),

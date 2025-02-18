@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<pages:BasePage
+    x:Class="CommunityToolkit.Maui.Sample.Pages.Views.RangeSliderXamlPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:pages="clr-namespace:CommunityToolkit.Maui.Sample.Pages"
+    xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+    xmlns:vm="clr-namespace:CommunityToolkit.Maui.Sample.ViewModels.Views"
+    Title="RangeSlider XAML syntax"
+    x:DataType="vm:RangeSliderViewModel"
+    x:TypeArguments="vm:RangeSliderViewModel">
+
+    <ScrollView>
+        <Grid ColumnDefinitions="*" RowDefinitions="*,*">
+            <toolkit:RangeSlider Grid.Row="0" Grid.Column="0" />
+        </Grid>
+    </ScrollView>
+</pages:BasePage>
