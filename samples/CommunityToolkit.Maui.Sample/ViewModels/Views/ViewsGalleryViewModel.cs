@@ -1,7 +1,7 @@
 // Ignore Spelling: color, colors, bindable, popups, popup
 
 using CommunityToolkit.Maui.Sample.Models;
-using CommunityToolkit.Maui.Sample.ViewModels.Views.AvatarView;
+using CommunityToolkit.Maui.Sample.ViewModels.Views;
 
 namespace CommunityToolkit.Maui.Sample.ViewModels.Views;
 
